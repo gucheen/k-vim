@@ -679,5 +679,3 @@ if $TERM_PROGRAM =~ "iTerm"
     " reset cursor when vim exits
     au VimLeave * set guicursor=a:ver25-blinkon0
 endif
-let g:python3_host_prog = '/Users/gucheng/.pyenv/versions/neovim/bin/python'
-let g:python_host_prog = '/Users/gucheng/.pyenv/versions/neovim2/bin/python'

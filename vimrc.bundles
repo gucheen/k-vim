@@ -53,7 +53,7 @@ Plug 'Raimondi/delimitMate'
 " 自动补全html/xml标签
 Plug 'docunext/closetag.vim', { 'for': ['html', 'xml'] }
 
-Plug 'roxma/nvim-completion-manager'
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 
 " quick edit
 " 快速注释
