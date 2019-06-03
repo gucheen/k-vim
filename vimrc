@@ -675,6 +675,4 @@ highlight clear SpellRare
 highlight SpellRare term=underline cterm=underline
 highlight clear SpellLocal
 highlight SpellLocal term=underline cterm=underline
-let g:python_host_prog = "/usr/local/bin/python"
-let g:python3_host_prog = '/usr/local/bin/python3'
 au VimLeave * set guicursor=a:ver25-blinkon0
