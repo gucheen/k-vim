@@ -676,3 +676,5 @@ highlight SpellRare term=underline cterm=underline
 highlight clear SpellLocal
 highlight SpellLocal term=underline cterm=underline
 au VimLeave * set guicursor=a:ver25-blinkon0
+
+let g:vim_isort_python_version = 'python3'
