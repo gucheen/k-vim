@@ -654,11 +654,12 @@ endif
 
 
 " theme主题
-set background=dark
 set t_Co=256
-
-" colorscheme solarized
-colorscheme molokai
+set termguicolors
+" let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
+" let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
 
 
 " 设置标记一列的背景颜色和数字一行颜色一致
