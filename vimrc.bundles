@@ -33,15 +33,14 @@ call plug#begin('~/.vim/bundle')
 if v:version < 800
     Plug 'scrooloose/syntastic'
 else
-    Plug 'w0rp/ale'
 endif
 
 " Group dependencies, vim-snippets depends on ultisnips
 " 代码片段快速插入 (snippets中,是代码片段资源,需要学习)
 " Snippets are separated from the engine. Add this if you want them:
-if v:version >= 704
-    Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-endif
+" if v:version >= 704
+    " Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+" endif
 
 " auto complete
 " 代码自动补全
@@ -53,7 +52,7 @@ Plug 'Raimondi/delimitMate'
 " 自动补全html/xml标签
 Plug 'docunext/closetag.vim', { 'for': ['html', 'xml'] }
 
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " quick edit
 " 快速注释
